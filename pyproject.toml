@@ -1,0 +1,10 @@
+[project]
+name = "hikari-discord-interactions"
+version = "0.1.5"
+description = "A Discord interactions library built on top of hikari."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+dependencies = [
+  "hikari[server]~=2.0.0.dev121"
+]
